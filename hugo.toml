@@ -13,6 +13,8 @@ languageName = "English"
 # whether to include Chinese/Japanese/Korean
 hasCJKLanguage = false
 
+contentDir = "content"
+
 # default amount of posts in each pages
 paginate = 12
 # google analytics code [UA-XXXXXXXX-X]
@@ -34,7 +36,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 [author]
   name = "Valentina Sona"
   email = "versus@poul.org"
-  link = ""
+  link = "https://versusjh.github.io/"
 
 # Menu config
 [menu]
@@ -70,7 +72,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # site default theme ["auto", "light", "dark"]
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
-  gitRepo = ""
+  gitRepo = "https://github.com/VersusJH/versusjh.github.io"
   #  which hash function used for SRI, when empty, no SRI is used
   # ["sha256", "sha384", "sha512", "md5"]
   fingerprint = ""
@@ -308,9 +310,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # whether to enable the table of the contents
       enable = true
       #  whether to keep the static table of the contents in front of the post
-      keepStatic = true
+      keepStatic = false
       # whether to make the table of the contents in the sidebar automatically collapsed
-      auto = true
+      auto = false
     #  KaTeX mathematical formulas
     [params.page.math]
       enable = true
@@ -348,7 +350,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       fullscreen = true
     #  social share links in post page
     [params.page.share]
-      enable = true
+      enable = false
       Twitter = false
       Facebook = false
       Linkedin = false
@@ -360,11 +362,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       VK = false
       Buffer = false
       Xing = false
-      Line = true
+      Line = false
       Instapaper = false
       Pocket = false
       Flipboard = false
-      Weibo = true
+      Weibo = false
       Blogger = false
       Baidu = false
       Odnoklassniki = false
